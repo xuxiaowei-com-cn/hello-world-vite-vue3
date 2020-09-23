@@ -8,6 +8,8 @@
       <router-link to="/demo/axios">Axios</router-link>
       |
       <router-link to="/demo/vant">Vant</router-link>
+      |
+      <router-link to="/demo/area">Area</router-link>
     </div>
     <router-view/>
   </div>

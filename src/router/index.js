@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 
-import { demoAxios, demoVant } from './demo'
+import { demoAxios, demoVant, demoArea } from './demo'
 
 const routes = [
   {
@@ -18,7 +18,8 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   },
   demoAxios,
-  demoVant
+  demoVant,
+  demoArea,
 ]
 
 const router = createRouter({

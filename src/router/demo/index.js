@@ -1,5 +1,6 @@
 import Axios from '../../views/demo/Axios.vue'
 import Vant from '../../views/demo/Vant.vue'
+import Area from '../../views/demo/Area.vue'
 
 const demoAxios =
     {
@@ -15,7 +16,15 @@ const demoVant =
         component: Vant,
     }
 
+const demoArea =
+    {
+        path: '/demo/area',
+        name: 'Area',
+        component: Area,
+    }
+
 export {
     demoAxios,
-    demoVant
+    demoVant,
+    demoArea,
 }
