@@ -5,8 +5,6 @@
       |
       <router-link to="/about">About</router-link>
       |
-      <router-link to="/demo/axios">Axios</router-link>
-      |
       <router-link to="/demo/vant">Vant</router-link>
       |
       <router-link to="/demo/area">Area</router-link>
