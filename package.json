@@ -6,14 +6,14 @@
     "build": "vite build"
   },
   "dependencies": {
-    "vant": "^3.0.0",
-    "vue": "^3.0.4",
-    "vue-router": "^4.0.1",
-    "vuex": "^4.0.0-rc.2"
+    "vant": "^3.0.10",
+    "vue": "^3.0.7",
+    "vue-router": "^4.0.5",
+    "vuex": "^4.0.0"
   },
   "devDependencies": {
-    "@vue/compiler-sfc": "^3.0.4",
-    "sass": "^1.30.0",
+    "@vue/compiler-sfc": "^3.0.7",
+    "sass": "^1.32.8",
     "vite": "^1.0.0-rc.13"
   }
 }
